@@ -222,7 +222,7 @@ const Home = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                github.com
+                github..com
               </GlassLink>
             </FormSide>
 
