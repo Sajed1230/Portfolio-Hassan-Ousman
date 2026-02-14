@@ -209,10 +209,7 @@ const Home = () => {
                 <SendButton type="submit" disabled={!isValid || status.sending}>
                   {status.sending ? "Sending..." : "Send Message"}
                 </SendButton>
-                <FormNote>
-                  This form is a demo (fake send) but behaves like real.
-                </FormNote>
-              </FormActions>
+                              </FormActions>
 
               {status.error && <StatusMsg $error>{status.error}</StatusMsg>}
               {status.success && <StatusMsg>{status.success}</StatusMsg>}
